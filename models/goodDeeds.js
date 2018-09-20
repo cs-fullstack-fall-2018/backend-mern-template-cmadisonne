@@ -25,4 +25,4 @@ const DeedSchema = new Schema({
     }
 });
 
-module.exports = Deed = mongoose.model('deed', DeedSchema);
+module.exports = mongoose.model('deed', DeedSchema);

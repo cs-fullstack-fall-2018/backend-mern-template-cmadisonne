@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
         .then(items => res.json(items));
 
     // Uncomment this if you want to send text to your client once you finish saving.
-    //.then(items => res.send("Showing GET request of deedAPI Routes in routes/api/goodDeeds.js");
+    // .then(() => res.send("Showing GET request of deedAPI Routes in routes/api/goodDeeds.js");
 });
 
 // This function is run if a POST method from the root / endpoint
